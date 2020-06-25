@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+body{
+   font-size: 16px;
+   font-family: 'Source Sans Pro', sans-serif;
+   color: black;
+   background-color: #d6eabf; 
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #35234e;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+}
+.navbar-brand{
+    padding-top: 8px;
+}
+.navbar-brand h1{
+    color: #ebeae9;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 3px 2px 2px black;
+}
+#nav-list{
+    margin-top: 10px;
+    background-color: #35234e;
+}
+#nav-list a{
+    font-weight: bolder;
+    color: grey;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: white;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#chicken-div {
+  border-top: 10px;
+  border-bottom: 10px;
+}
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/** Main Content **/
+
+#main-content {
+    width: 80%;
+    margin-bottom: 10px;
+}
+h1{
+    font-weight: bolder;
+}
+#main-content h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+section {
+    border: 0px solid black;
+    background-color: #efc892;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    font-family: Helvetica;
+    color: black;
+    position: relative;
+    overflow: auto;
+}
+section>p {
+    padding: 5px 15px 15px 15px;
+}
+.row{
+    width: 100%;
+}
+#chicken {
+    text-align: center;
+    width: 100%;
+    font-family: Georgia,sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+}
+#beef {
+    text-align: center;
+    width: 100%;
+    font-family: Georgia,sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+}
+#sushi {
+    text-align: center;
+    width: 100%;
+    font-family: Georgia,sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+}
+
+
+
+
+
